@@ -25,8 +25,8 @@ while 1 :
         time.sleep(1)
         file.seek(where)
     else:
-        print(float(line[83:89])) # rx
-#        print(float(line[90:97])) # ry
-#        print(float(line[98:104])) # rz
-
+        sline=line.split(",")
+#        print(sline[3]) #  x
+        print(sline[4]) # y
+#        print(sline[5]) # z
         
